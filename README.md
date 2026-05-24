@@ -13,6 +13,6 @@ This folder contains a static GitHub Pages template.
 1. Replace placeholder text with your own biography, projects, and links.
 2. Update `mailto:your.email@example.com` and social links in `index.html`.
 3. Commit and push to your `rawezh.github.io` repository.
-4. GitHub Pages will serve the site at `https://rawezhkamla.github.io/`.
+4. GitHub Pages will serve the site at `https://rawezhkamla.github.io/rawezh.github.io/`.
 
 You can preview locally by opening `index.html` in a browser.
