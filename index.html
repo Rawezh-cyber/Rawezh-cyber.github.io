@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal website for Rawezh: projects, experience, and ways to get in touch."
+    />
+    <title>Rawezh | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Rawezh home">
+        <span class="brand-mark">R</span>
+        <span>Rawezh</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Personal portfolio</p>
+          <h1>Hi, I am Rawezh. I build thoughtful digital experiences.</h1>
+          <p class="hero-copy">
+            Replace this text with a short introduction: what you do, what you
+            care about, and what kind of work you want people to remember.
+          </p>
+          <div class="hero-actions" aria-label="Main actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Profile summary">
+          <div class="avatar" aria-hidden="true">R</div>
+          <h2>Rawezh</h2>
+          <p>Developer, creator, and lifelong learner.</p>
+          <dl class="quick-facts">
+            <div>
+              <dt>Location</dt>
+              <dd>Your city</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Web development</dd>
+            </div>
+            <div>
+              <dt>Open to</dt>
+              <dd>Projects and collaboration</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>A little about me</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            Use this section to tell your story in a natural voice. Mention your
+            background, interests, skills, and what kind of problems you enjoy
+            solving.
+          </p>
+          <p>
+            Keep it concise and personal. A good portfolio feels human before it
+            feels impressive.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Web App</p>
+            <h3>Project One</h3>
+            <p>
+              Describe what you built, the tools you used, and the outcome or
+              lesson learned.
+            </p>
+            <a href="#" aria-label="Open Project One">View project</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Portfolio</p>
+            <h3>Project Two</h3>
+            <p>
+              Add another project here. Link to a live demo, repository, or case
+              study when you are ready.
+            </p>
+            <a href="#" aria-label="Open Project Two">View project</a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Experiment</p>
+            <h3>Project Three</h3>
+            <p>
+              This is a good place for a learning project, design experiment, or
+              open-source contribution.
+            </p>
+            <a href="#" aria-label="Open Project Three">View project</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>What I work with</h2>
+        </div>
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>GitHub Pages</span>
+          <span>Responsive Design</span>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something useful.</h2>
+          <p>
+            Update these links with your real email, GitHub, LinkedIn, or other
+            profiles.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://github.com/your-username">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Rawezh. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
